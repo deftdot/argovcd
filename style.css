@@ -34,3 +34,11 @@ body{
 .sidebar__logo img { 
     content: url(https://deftdot.github.io/argovcd/zohar.jpeg);
 }
+
+.sidebar__logo {
+  font-size: 0;
+}
+.sidebar__logo:after {
+  font-size: 1rem;
+  content: 'Argov CD';
+}
